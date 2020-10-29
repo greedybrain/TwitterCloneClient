@@ -1,0 +1,15 @@
+.create_tweet {
+        position: fixed;
+        display: inline-block;
+        z-index: 1000;
+        right: 20px;
+        bottom: 80px;
+        border-radius: 50%;
+        padding: 15px;
+        background-color: #1DA1F2;
+        cursor: pointer;
+        i {
+                font-size: 1.5rem;
+                color: #fff;
+        }
+}
