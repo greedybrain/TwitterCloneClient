@@ -1,0 +1,48 @@
+.header {
+  border-bottom: 1px solid #d3d3d3;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0 15px;
+  height: 55px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  background-color: #fff;
+}
+
+.header div.image_and_label {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header div.image_and_label div.profile_image {
+  width: 29px;
+  height: 29px;
+  border-radius: 50%;
+  background-image: url("../../Images/naya_willis.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  margin-right: 30px;
+}
+
+.header div.image_and_label div.label h2 {
+  font-weight: 900;
+  font-size: 1.3rem;
+}
+
+.header div.star i {
+  color: #1DA1F2;
+}
