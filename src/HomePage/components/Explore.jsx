@@ -5,7 +5,6 @@ class Explore extends Component {
         render() {
                 return (
                         <div className="explorer_wrapper">
-                                <Header />
                         </div>
                 );
         }
