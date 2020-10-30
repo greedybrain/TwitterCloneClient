@@ -12,9 +12,7 @@ const Tweets = () => {
                                 name: faker.name.findName(),
                                 image: faker.image.avatar(),
                                 username: faker.internet.userName(),
-                                content: faker.lorem.sentences(2),
-                                contentImage: faker.image.image(),
-                                hashTags: faker.random.words()
+                                content: faker.lorem.sentences(3),
                         })
                 }
                 setTweets(tweetsToRender)

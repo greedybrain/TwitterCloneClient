@@ -29,29 +29,26 @@ const Tweet = ({ user }) => {
                                         </div>
                                         <div className="content">
                                                 {user.content}
-                                                <div className="contentImage">
-                                                        <img src={user.contentImage} alt="pic"/>
-                                                </div>
                                         </div>
                                         <div className="tweet_footer">
                                                 <ul>
                                                         <li className="comments item">
-                                                                <i class="far fa-comment"></i>
+                                                                <i className="far fa-comment"></i>
                                                         </li>
                                                         <li className="retweets item">
-                                                                <i class="fas fa-recycle"></i>
+                                                                <i className="fas fa-recycle"></i>
                                                         </li>
                                                         <li className="heart item">
-                                                                <i class="far fa-heart"></i>
+                                                                <i className="far fa-heart"></i>
                                                         </li>
                                                         <li className="other item">
-                                                                <i class="fas fa-arrow-up"></i>
+                                                                <i className="fas fa-arrow-up"></i>
                                                         </li>
                                                 </ul>
                                         </div>
                                 </div>
                                 <div className="tweet_settings">
-                                        <i class="fas fa-ellipsis-h"></i>
+                                        <i className="fas fa-ellipsis-h"></i>
                                 </div>
                         </div>
                 </div>
