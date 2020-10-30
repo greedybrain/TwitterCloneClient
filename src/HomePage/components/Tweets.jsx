@@ -1,19 +1,33 @@
-import React from 'react'
-import faker from 'faker'
+import React, { useEffect, useState } from 'react'
+import faker, { fake } from 'faker'
 import './Tweets.css'
+import Tweet from './Tweet'
 
 const Tweets = () => {
-        const avatarsToRender = []
-        for(let i=0; i < 50; i++) {
-                let avatar = faker.image.avatar()
-                avatarsToRender.push(avatar)
+        const [tweets, setTweets] = useState([])
+        const getFakeDataToMakeTweets = () => {
+                const tweetsToRender = []
+                for(let i=0; i < 100; i++) {
+                        tweetsToRender.push({ 
+                                name: faker.name.findName(),
+                                image: faker.image.avatar(),
+                                username: faker.internet.userName(),
+                                content: faker.lorem.sentences(2),
+                                contentImage: faker.image.image(),
+                                hashTags: faker.random.words()
+                        })
+                }
+                setTweets(tweetsToRender)
         }
-        const renderAvatars = avatarsToRender.map((ava, index) => {
-                return <img key={index} src={ava} alt='pic' />
-        })
+
+        useEffect(() => {
+                getFakeDataToMakeTweets()
+        }, [])
+        const renderTweets = tweets.map((user, index) => <Tweet key={index} user={user} />)
+        
         return (
                 <ul className="tweets_wrapper">
-                        {renderAvatars}
+                        {renderTweets}
                 </ul>
         )
 }
