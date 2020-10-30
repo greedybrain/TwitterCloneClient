@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import faker, { fake } from 'faker'
+import faker from 'faker'
 import './Tweets.css'
 import Tweet from './Tweet'
 

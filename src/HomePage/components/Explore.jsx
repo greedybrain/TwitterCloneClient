@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Header from '../../App/components/Header';
+// import Header from '../../App/components/Header';
 
 class Explore extends Component {
         render() {
