@@ -1,0 +1,100 @@
+div.tweet .tweet_body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  padding: 10px 15px;
+  border-bottom: 1px solid #d3d3d357;
+}
+
+div.tweet .tweet_body .tweeter {
+  width: 46px;
+  height: 46px;
+  margin-right: 10px;
+}
+
+div.tweet .tweet_body .tweeter img {
+  width: 100%;
+  border-radius: 50%;
+  border: 1px solid #d3d3d357;
+}
+
+div.tweet .tweet_body .tweet_content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: relative;
+}
+
+div.tweet .tweet_body .tweet_content .tweet_content_head {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+div.tweet .tweet_body .tweet_content .tweet_content_head .tweeter_name {
+  font-weight: 600;
+  margin-bottom: 3px;
+}
+
+div.tweet .tweet_body .tweet_content .tweet_content_head .tweeter_name .at_name {
+  color: #919191;
+}
+
+div.tweet .tweet_body .tweet_content .tweet_content_head .tweet_time {
+  color: #919191;
+}
+
+div.tweet .tweet_body .tweet_content .tweet_content_head .tweet_time span.bullet {
+  display: inline-block;
+  font-size: .5rem;
+  margin-left: 10px;
+  color: #919191;
+}
+
+div.tweet .tweet_body .tweet_content .content {
+  font-size: .9rem;
+  font-weight: 200;
+}
+
+div.tweet .tweet_body .tweet_content .content .contentImage {
+  margin-top: 10px;
+  border: 1px solid #eee;
+  border-radius: 20px;
+}
+
+div.tweet .tweet_body .tweet_content .content .contentImage img {
+  width: 100%;
+  border-radius: 20px;
+}
+
+div.tweet .tweet_body .tweet_content .tweet_footer {
+  margin-top: 10px;
+}
+
+div.tweet .tweet_body .tweet_content .tweet_footer ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+div.tweet .tweet_body .tweet_content .tweet_footer ul li i {
+  color: #949494;
+}
+
+div.tweet .tweet_body .tweet_settings {
+  position: absolute;
+  right: 20px;
+}
+
+div.tweet .tweet_body .tweet_settings i {
+  color: #bbbbbb;
+}

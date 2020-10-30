@@ -1,0 +1,84 @@
+div.tweet {
+        .tweet_head {
+                // border: 1px solid red;
+        }
+        .tweet_body {
+                display: flex;
+                position: relative;
+                padding: 10px 15px;
+                border-bottom: 1px solid #d3d3d357;
+                .tweeter {
+                        width: 46px;
+                        height: 46px;
+                        margin-right: 10px;
+
+                       img {
+                               width: 100%;
+                               border-radius: 50%;
+                               border: 1px solid #d3d3d357;
+                       }
+                }
+
+                .tweet_content {
+                        display: flex;
+                        flex-direction: column;
+                        position: relative;
+                        .tweet_content_head {
+                                position: relative;
+                                display: flex;
+                                .tweeter_name {
+                                        font-weight: 600;
+                                        margin-bottom: 3px;
+                                        .at_name {
+                                                color: #919191;
+                                        }
+                                }
+                                .tweet_time {
+                                        color: #919191;
+                                        span.bullet {
+                                                display: inline-block;
+                                                font-size: .5rem;
+                                                margin-left: 10px;
+                                                color: #919191;
+                                        }
+                                }
+                                
+                        }
+                        .content {
+                                font-size: .9rem;
+                                font-weight: 200;
+
+                                .contentImage {
+                                        margin-top: 10px;
+                                        border: 1px solid #eee;
+                                        border-radius: 20px;
+                                        img {
+                                                width: 100%;
+                                                border-radius: 20px;
+                                        }
+                                }
+                        }
+                        .tweet_footer {
+                                margin-top: 10px;
+
+                                ul {
+                                        display: flex;
+                                        justify-content: space-between;
+                                        
+                                        li {
+                                                i {
+                                                        color: #949494;
+                                                }
+                                        }
+                                }
+                        }
+                }
+                .tweet_settings {
+                        position: absolute;
+                        right: 20px;
+                        i {
+                                color: #bbbbbb;
+                        }
+                }
+        }
+}
