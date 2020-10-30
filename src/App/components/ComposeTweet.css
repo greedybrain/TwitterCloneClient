@@ -1,0 +1,141 @@
+div.compose_tweet_wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2000;
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+}
+
+div.compose_tweet_wrapper div.compose_tweet_head {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 7vh;
+  border-bottom: 1px solid #d3d3d386;
+  padding: 0 20px;
+}
+
+div.compose_tweet_wrapper div.compose_tweet_head div.arrow i {
+  font-size: 1.2rem;
+  color: #1DA1F2;
+}
+
+div.compose_tweet_wrapper div.compose_tweet_head div.tweet_submit button {
+  font-size: 1.1rem;
+  padding: 5px 15px;
+  border: none;
+  border-radius: 30px;
+  color: #fff;
+  background-color: #1DA1F2;
+}
+
+div.compose_tweet_wrapper div.compose_tweet_head div.tweet_submit button:disabled {
+  background-color: #91d1f8;
+}
+
+div.compose_tweet_wrapper div.compose_tweet_body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+div.compose_tweet_wrapper div.compose_tweet_body div.profile_image_section {
+  width: 22%;
+  height: 93vh;
+}
+
+div.compose_tweet_wrapper div.compose_tweet_body div.profile_image_section div.image_wrapper {
+  width: 70%;
+  margin: 7px auto 0 auto;
+}
+
+div.compose_tweet_wrapper div.compose_tweet_body div.profile_image_section div.image_wrapper img {
+  width: 90%;
+  border-radius: 50%;
+}
+
+div.compose_tweet_wrapper div.compose_tweet_body div.tweet_create_area {
+  width: 78%;
+  padding-right: 15px;
+  height: 250px;
+  position: relative;
+}
+
+div.compose_tweet_wrapper div.compose_tweet_body div.tweet_create_area div.content textarea {
+  resize: none;
+  width: 100%;
+  height: 166px;
+  margin-top: 10px;
+  border: none;
+  padding-top: 10px;
+  outline: none;
+  font-size: 1.2rem;
+  font-family: 'Nunito Sans', sans-serif;
+  overflow-y: scroll;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 5px;
+}
+
+div.compose_tweet_wrapper div.compose_tweet_body div.tweet_create_area div.content textarea::-webkit-input-placeholder {
+  font-size: 1.2rem;
+}
+
+div.compose_tweet_wrapper div.compose_tweet_body div.tweet_create_area div.content textarea:-ms-input-placeholder {
+  font-size: 1.2rem;
+}
+
+div.compose_tweet_wrapper div.compose_tweet_body div.tweet_create_area div.content textarea::-ms-input-placeholder {
+  font-size: 1.2rem;
+}
+
+div.compose_tweet_wrapper div.compose_tweet_body div.tweet_create_area div.content textarea::placeholder {
+  font-size: 1.2rem;
+}
+
+div.compose_tweet_wrapper div.compose_tweet_body div.tweet_create_area div.who_can_reply {
+  font-size: .8rem;
+  font-weight: 600;
+  color: #1DA1F2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-bottom: 1px solid #d3d3d386;
+  padding: 5px 0 15px 5px;
+}
+
+div.compose_tweet_wrapper div.compose_tweet_body div.tweet_create_area div.who_can_reply i {
+  font-size: 1rem;
+  color: #1DA1F2;
+  margin-right: 8px;
+}
+
+div.compose_tweet_wrapper div.compose_tweet_body div.tweet_create_area div.compose_tweet_footer ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 15px;
+}
+
+div.compose_tweet_wrapper div.compose_tweet_body div.tweet_create_area div.compose_tweet_footer ul li {
+  margin-right: 20px;
+}
+
+div.compose_tweet_wrapper div.compose_tweet_body div.tweet_create_area div.compose_tweet_footer ul li i {
+  font-size: 1.2rem;
+  color: #1DA1F2;
+}

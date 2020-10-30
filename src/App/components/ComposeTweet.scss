@@ -1,0 +1,118 @@
+div.compose_tweet_wrapper {
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 2000;
+        width: 100%;
+        height: 100%;
+        background-color: #fff;
+        
+        div.compose_tweet_head {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                height: 7vh;
+                border-bottom: 1px solid #d3d3d386;
+                padding: 0 20px;
+
+                div.arrow {
+                        i {
+                                font-size: 1.2rem;
+                                color: #1DA1F2;
+                        }
+                }
+
+                div.tweet_submit {
+                        button {
+                                font-size: 1.1rem;
+                                padding: 5px 15px;
+                                border: none;
+                                border-radius: 30px;
+                                color: #fff;
+                                background-color: #1DA1F2;
+                                
+                                &:disabled {
+                                        background-color: #91d1f8;
+                                }
+                        }
+                }
+        }
+
+        div.compose_tweet_body {
+                display: flex;
+
+
+                div.profile_image_section {
+                        width: 22%;
+                        height: 93vh;
+
+                        div.image_wrapper {
+                                width: 70%;
+                                margin: 7px auto 0 auto;
+                                
+
+                                img {
+                                        width: 90%;
+                                        border-radius: 50%;
+                                }
+                        }
+                }
+
+                div.tweet_create_area {
+                        width: 78%;
+                        padding-right: 15px;
+                        height: 250px;
+                        position: relative;
+                        div.content {
+                                textarea {
+                                        resize: none;
+                                        width: 100%;
+                                        height: 166px;
+                                        margin-top: 10px;
+                                        border: none;
+                                        padding-top: 10px;
+                                        outline: none;
+                                        font-size: 1.2rem;
+                                        font-family: 'Nunito Sans', sans-serif;
+                                        overflow-y: scroll;
+                                        position: sticky;
+                                        top: 5px;
+        
+                                        &::placeholder {
+                                                font-size: 1.2rem;
+                                        }
+                                }
+                        }
+                        div.who_can_reply {
+                                font-size: .8rem;
+                                font-weight: 600;
+                                color: #1DA1F2;
+                                display: flex;
+                                align-items: center;
+                                border-bottom: 1px solid #d3d3d386;
+                                padding: 5px 0 15px 5px;
+                                i {
+                                        font-size: 1rem;
+                                        color: #1DA1F2;
+                                        margin-right: 8px;
+                                }
+                        }
+                        div.compose_tweet_footer {
+                                ul {
+                                        display: flex;
+                                        align-items: center;
+                                        margin-top: 15px;
+
+                                        li {
+                                                margin-right: 20px;
+
+                                                i {
+                                                        font-size: 1.2rem;
+                                                        color: #1DA1F2;
+                                                }
+                                        }
+                                }
+                        }
+                }
+        }
+}

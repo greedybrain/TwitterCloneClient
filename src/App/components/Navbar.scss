@@ -16,14 +16,15 @@
 
                 li {
                         margin: 0 9%;
-                        .nav_item {
-                                i {
-                                        color: #1DA1F2;
-                                }
-                              }
                         i {
                                 font-size: 1.5rem;
                                 color: #999999;
+                        }
+                }
+
+                .navbar__link--active {
+                        i {
+                                color: #1DA1F2;
                         }
                 }
         }

@@ -27,11 +27,11 @@
   margin: 0 9%;
 }
 
-.navbar ul li .nav_item i {
-  color: #1DA1F2;
-}
-
 .navbar ul li i {
   font-size: 1.5rem;
   color: #999999;
+}
+
+.navbar ul .navbar__link--active i {
+  color: #1DA1F2;
 }
