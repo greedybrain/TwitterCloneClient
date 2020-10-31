@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react'
-import Tweets from '../../HomePage/components/Tweets'
 import faker from 'faker'
 import Message from '../../HomePage/components/Message'
 import './Messages.css'

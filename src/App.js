@@ -1,4 +1,4 @@
-import Header from "./App/components/Header";
+// import Header from "./App/components/Header";
 import Navbar from "./App/components/Navbar";
 import Routes from "./Routes";
 import './App.css'
