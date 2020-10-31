@@ -32,6 +32,6 @@
   color: #999999;
 }
 
-.navbar ul .navbar__link--active i {
+.navbar ul li .navbar__link i {
   color: #1DA1F2;
 }
