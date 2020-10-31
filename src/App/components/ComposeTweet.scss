@@ -16,6 +16,7 @@ div.compose_tweet_wrapper {
                 padding: 0 20px;
 
                 div.arrow {
+                        margin-left: 2px;
                         i {
                                 font-size: 1.2rem;
                                 color: #1DA1F2;
@@ -48,8 +49,7 @@ div.compose_tweet_wrapper {
 
                         div.image_wrapper {
                                 width: 70%;
-                                margin: 7px auto 0 auto;
-                                
+                                margin: 10px auto 0 15px;
 
                                 img {
                                         width: 90%;
@@ -108,7 +108,7 @@ div.compose_tweet_wrapper {
 
                                                 i {
                                                         font-size: 1.2rem;
-                                                        color: #1DA1F2;
+                                                        color: #52bafa;
                                                 }
                                         }
                                 }
