@@ -23,6 +23,10 @@ div.compose_tweet_wrapper div.compose_tweet_head {
   padding: 0 20px;
 }
 
+div.compose_tweet_wrapper div.compose_tweet_head div.arrow {
+  margin-left: 2px;
+}
+
 div.compose_tweet_wrapper div.compose_tweet_head div.arrow i {
   font-size: 1.2rem;
   color: #1DA1F2;
@@ -54,7 +58,7 @@ div.compose_tweet_wrapper div.compose_tweet_body div.profile_image_section {
 
 div.compose_tweet_wrapper div.compose_tweet_body div.profile_image_section div.image_wrapper {
   width: 70%;
-  margin: 7px auto 0 auto;
+  margin: 10px auto 0 15px;
 }
 
 div.compose_tweet_wrapper div.compose_tweet_body div.profile_image_section div.image_wrapper img {
@@ -137,5 +141,5 @@ div.compose_tweet_wrapper div.compose_tweet_body div.tweet_create_area div.compo
 
 div.compose_tweet_wrapper div.compose_tweet_body div.tweet_create_area div.compose_tweet_footer ul li i {
   font-size: 1.2rem;
-  color: #1DA1F2;
+  color: #52bafa;
 }
