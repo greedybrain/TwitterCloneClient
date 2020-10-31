@@ -1,0 +1,73 @@
+div.message_wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-bottom: 1px solid #d3d3d386;
+  padding: 15px 10px;
+}
+
+div.message_wrapper .message_sender {
+  width: 46px;
+  height: 46px;
+  margin-right: 10px;
+}
+
+div.message_wrapper .message_sender img {
+  width: 100%;
+  border-radius: 50%;
+  border: 1px solid #d3d3d357;
+}
+
+div.message_wrapper .message_content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: relative;
+}
+
+div.message_wrapper .message_content .message_content_head {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+div.message_wrapper .message_content .message_content_head .sender_name {
+  font-weight: 600;
+  margin-bottom: 3px;
+}
+
+div.message_wrapper .message_content .message_content_head .sender_name .at_name {
+  color: #919191;
+}
+
+div.message_wrapper .message_content .message_content_head .message_time {
+  color: #919191;
+}
+
+div.message_wrapper .message_content .message_content_head .message_time span.bullet {
+  display: inline-block;
+  font-size: .5rem;
+  margin-left: 10px;
+  color: #919191;
+}
+
+div.message_wrapper .message_content .content {
+  font-size: .9rem;
+  font-weight: 200;
+}
+
+div.message_wrapper .message_content .content .contentImage {
+  margin-top: 10px;
+  border: 1px solid #eee;
+  border-radius: 20px;
+}
+
+div.message_wrapper .message_content .content .contentImage img {
+  width: 100%;
+  border-radius: 20px;
+}
