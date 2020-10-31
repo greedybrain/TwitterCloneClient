@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Tweets from '../components/Tweets';
 // import './Home.css'
+import '../../App/components/Header.css'
 
 class Home extends Component {
         render() {

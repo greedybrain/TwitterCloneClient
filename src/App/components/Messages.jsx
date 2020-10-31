@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 import faker from 'faker'
 import Message from '../../HomePage/components/Message'
 import './Messages.css'
+import './Header.css'
 import CreateMessageButton from './CreateMessageButton'
 
 const Messages = () => {
