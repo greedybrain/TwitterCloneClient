@@ -6,23 +6,23 @@ const Navbar = () => {
         return (
                 <nav className="navbar">
                         <ul>
-                                <li className="home nav_item">
-                                        <NavLink to='/' activeClassName="navbar__link--active">
-                                                <i className="fas fa-home"></i>
+                                <li className="home item">
+                                        <NavLink to='/home' activeClassName="navbar__link">
+                                                <i className="fas fa-home" ></i>
                                         </NavLink>
                                 </li>
                                 <li className="search item">
-                                        <NavLink to='/explore' activeClassName="navbar__link--active">
+                                        <NavLink to='/explore' activeClassName="navbar__link">
                                                 <i className="fas fa-search"></i>
                                         </NavLink>
                                 </li>
                                 <li className="bell item">
-                                        <NavLink to="/notifications" activeClassName="navbar__link--active">
+                                        <NavLink to="/notifications" activeClassName="navbar__link">
                                                 <i className="far fa-bell"></i>
                                         </NavLink>
                                 </li>
                                 <li className="messages item">
-                                        <NavLink to="/messages" activeClassName="navbar__link--active">
+                                        <NavLink to="/messages" activeClassName="navbar__link">
                                                 <i className="far fa-envelope"></i>
                                         </NavLink>
                                 </li>
