@@ -15,8 +15,8 @@ const Header = () => {
                                         <h2>Home</h2>
                                 </div>
                         </div>
-                        <div className="star">
-                                {/* star icon  */}
+                        <div className="header_icon">
+                                
                                 <i className="far fa-star"></i> 
                         </div>
                 </header>
