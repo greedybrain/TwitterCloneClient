@@ -1,6 +1,7 @@
 import React from 'react'
 import { Route, Switch } from 'react-router-dom'
 import ComposeTweet from './App/components/ComposeTweet'
+import Messages from './App/components/Messages'
 import Explore from './HomePage/components/Explore'
 import Home from './HomePage/containers/Home'
 
@@ -8,6 +9,11 @@ const Routes = () => {
         return (
                 <>
                         <Switch>
+                                <Route 
+                                        exact
+                                        path='/messages'
+                                        render={routerProps => <Messages {...routerProps} />}
+                                />
                                 <Route
                                         exact
                                         path='/explore'
@@ -20,7 +26,7 @@ const Routes = () => {
                                 />
                                 <Route 
                                         exact
-                                        path="/"
+                                        path="/home"
                                         render={routerProps => <Home {...routerProps} pageTitle="Home" />}
                                 />
                         </Switch>
