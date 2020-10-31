@@ -1,0 +1,60 @@
+div.messages_wrapper {
+        overflow-y: scroll;
+        height: 86vh;
+        position: relative;
+        z-index: 3000;
+        background-color: #fff;
+
+        div.search_form {
+                height: 58px;
+                border-bottom: 1px solid #d3d3d386;
+                display: flex;
+                align-items: center;
+
+                div.search_area {
+                        background-color: #eeeeeeda;
+                        display: flex;
+                        width: 93%;
+                        height: 40px;
+                        margin: 0 auto;
+                        align-items: center;
+                        border-radius: 30px;
+
+                        
+                        div.search_icon {
+                                width: 15%;
+                                height: 100%;
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                                border-radius: 29px 0 0 29px;
+
+                                i {
+                                        color: #a8a8a8;
+                                }
+                        }
+                        div.search {
+                                width: 85%;
+                                height: 100%;
+                                display: flex;
+                                align-items: center;
+                                border-radius: 0 29px 29px 0;
+
+                                input {
+                                        border: none;
+                                        width: 100%;
+                                        height: 100%;
+                                        border-radius: 0 29px 29px 0;
+                                        background-color: transparent;
+                                        font-size: .9rem;
+                                        outline: none;
+                        
+                                        &::placeholder {
+                                                font-size: .95rem;
+                                                color: #75797e;
+                                        }
+                                }
+                        }
+                }
+        }
+}
