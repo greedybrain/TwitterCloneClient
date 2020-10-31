@@ -24,9 +24,9 @@ const Tweets = () => {
         const renderTweets = tweets.map((user, index) => <Tweet key={index} user={user} />)
         
         return (
-                <ul className="tweets_wrapper">
+                <div className="tweets_wrapper">
                         {renderTweets}
-                </ul>
+                </div>
         )
 }
 
