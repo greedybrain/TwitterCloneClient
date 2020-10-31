@@ -7,7 +7,7 @@ import CreateTweetButton from "./App/components/CreateTweetButton";
 function App() {
   return (
     <div className="App">
-      <Header />
+      {/* <Header /> */}
       <Routes />
       <CreateTweetButton />
       <Navbar />
