@@ -1,7 +1,7 @@
 div.create_message {
   position: fixed;
   display: inline-block;
-  z-index: 1000;
+  z-index: 2000;
   right: 20px;
   bottom: 70px;
   border-radius: 50%;
