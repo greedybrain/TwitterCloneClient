@@ -1,0 +1,143 @@
+div.account_info_wrapper {
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 5000;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        div.account_info {
+                overflow-y: scroll;
+                width: 80%;
+                height: 100%;
+                background-color: #fff;
+                div.account_info_head {
+                        position: sticky;
+                        top: 0;
+                        background-color: #fff;
+                        border-bottom: 1px solid #d3d3d386;
+                        padding: 15px;
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+
+                        div.close {
+                                margin-right: 5px;
+
+                                i {
+                                        font-size: 1.4rem;
+                                        color: #1DA1F2;
+                                }
+                        }
+                }
+
+                div.account_info_body {
+                        height: 100%;
+                        overflow-y: scroll; 
+
+                        div.profile_image_and_add_account {
+                                display: flex;
+                                align-items: center;
+                                justify-content: space-between;
+                                padding: 10px 15px 5px 15px;
+
+                                div.profile_image_info {
+
+                                        div.image_wrapper {
+                                                width: 36px;
+
+                                                img {
+                                                        width: 100%;
+                                                        border-radius: 50%;
+                                                }
+                                        }
+                                }
+                                div.add_account {
+                                        border: 1px solid #1DA1F2;
+                                        width: 33px;
+                                        height: 33px;
+                                        border-radius: 50%;
+                                        display: flex;
+                                        align-items: center;
+                                        justify-content: center;
+                                        margin-bottom: 8px;
+
+                                        i {
+                                                display: inline-block;
+                                                color: #1DA1F2;
+                                        }
+                                }
+                        }
+                        div.user_name_at_name {
+                                padding: 0 15px;
+
+                                div.user_name {
+                                        font-size: 1.1rem;
+                                }
+
+                                div.at_name {
+                                        font-size: .9rem;
+                                        color: #657786;
+                                }
+                        }
+                        div.follower_info {
+                                display: flex;
+                                padding: 20px 15px;
+                                font-size: .9rem;
+
+                                div.following {
+                                        margin-right: 15px;
+                                }
+
+                                span.amount {
+                                        font-weight: 800;
+                                }
+
+                                span.label {
+                                        color: #657786;
+                                }
+                        }
+
+                        div.part_a,
+                        div.part_b,
+                        div.part_c,
+                        div.part_d,
+                        div.part_e {
+                                border-bottom: 1px solid #d3d3d386;
+
+                                ul {
+
+                                        li {
+                                                display: flex;
+                                                padding: 16px 15px;
+
+                                                div.icon {
+                                                        width: 10%;
+                                                        i {
+                                                                color: #657786;
+                                                        }
+                                                }
+
+                                                div.label {
+                                                        font-size: .9rem;
+                                                }
+                                        }
+                                }
+                        }
+                        div.part_e {
+                                border-bottom: none;
+                                padding-bottom: 40px;
+                                font-size: .9rem;
+                        }
+                }
+        }
+        div.overlay {
+                position: absolute;
+                top: 0;
+                right: 0;
+                z-index: 5000;
+                width: 20%;
+                height: 100%;
+                background-color: #3333336e;
+        }
+}
