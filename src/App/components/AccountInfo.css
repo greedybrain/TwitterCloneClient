@@ -1,0 +1,186 @@
+div.account_info_wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 5000;
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+div.account_info_wrapper div.account_info {
+  overflow-y: scroll;
+  width: 80%;
+  height: 100%;
+  background-color: #fff;
+}
+
+div.account_info_wrapper div.account_info div.account_info_head {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color: #fff;
+  border-bottom: 1px solid #d3d3d386;
+  padding: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+div.account_info_wrapper div.account_info div.account_info_head div.close {
+  margin-right: 5px;
+}
+
+div.account_info_wrapper div.account_info div.account_info_head div.close i {
+  font-size: 1.4rem;
+  color: #1DA1F2;
+}
+
+div.account_info_wrapper div.account_info div.account_info_body {
+  height: 100%;
+  overflow-y: scroll;
+}
+
+div.account_info_wrapper div.account_info div.account_info_body div.profile_image_and_add_account {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 10px 15px 5px 15px;
+}
+
+div.account_info_wrapper div.account_info div.account_info_body div.profile_image_and_add_account div.profile_image_info div.image_wrapper {
+  width: 36px;
+}
+
+div.account_info_wrapper div.account_info div.account_info_body div.profile_image_and_add_account div.profile_image_info div.image_wrapper img {
+  width: 100%;
+  border-radius: 50%;
+}
+
+div.account_info_wrapper div.account_info div.account_info_body div.profile_image_and_add_account div.add_account {
+  border: 1px solid #1DA1F2;
+  width: 33px;
+  height: 33px;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 8px;
+}
+
+div.account_info_wrapper div.account_info div.account_info_body div.profile_image_and_add_account div.add_account i {
+  display: inline-block;
+  color: #1DA1F2;
+}
+
+div.account_info_wrapper div.account_info div.account_info_body div.user_name_at_name {
+  padding: 0 15px;
+}
+
+div.account_info_wrapper div.account_info div.account_info_body div.user_name_at_name div.user_name {
+  font-size: 1.1rem;
+}
+
+div.account_info_wrapper div.account_info div.account_info_body div.user_name_at_name div.at_name {
+  font-size: .9rem;
+  color: #657786;
+}
+
+div.account_info_wrapper div.account_info div.account_info_body div.follower_info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 20px 15px;
+  font-size: .9rem;
+}
+
+div.account_info_wrapper div.account_info div.account_info_body div.follower_info div.following {
+  margin-right: 15px;
+}
+
+div.account_info_wrapper div.account_info div.account_info_body div.follower_info span.amount {
+  font-weight: 800;
+}
+
+div.account_info_wrapper div.account_info div.account_info_body div.follower_info span.label {
+  color: #657786;
+}
+
+div.account_info_wrapper div.account_info div.account_info_body div.part_a,
+div.account_info_wrapper div.account_info div.account_info_body div.part_b,
+div.account_info_wrapper div.account_info div.account_info_body div.part_c,
+div.account_info_wrapper div.account_info div.account_info_body div.part_d,
+div.account_info_wrapper div.account_info div.account_info_body div.part_e {
+  border-bottom: 1px solid #d3d3d386;
+}
+
+div.account_info_wrapper div.account_info div.account_info_body div.part_a ul li,
+div.account_info_wrapper div.account_info div.account_info_body div.part_b ul li,
+div.account_info_wrapper div.account_info div.account_info_body div.part_c ul li,
+div.account_info_wrapper div.account_info div.account_info_body div.part_d ul li,
+div.account_info_wrapper div.account_info div.account_info_body div.part_e ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 16px 15px;
+}
+
+div.account_info_wrapper div.account_info div.account_info_body div.part_a ul li div.icon,
+div.account_info_wrapper div.account_info div.account_info_body div.part_b ul li div.icon,
+div.account_info_wrapper div.account_info div.account_info_body div.part_c ul li div.icon,
+div.account_info_wrapper div.account_info div.account_info_body div.part_d ul li div.icon,
+div.account_info_wrapper div.account_info div.account_info_body div.part_e ul li div.icon {
+  width: 10%;
+}
+
+div.account_info_wrapper div.account_info div.account_info_body div.part_a ul li div.icon i,
+div.account_info_wrapper div.account_info div.account_info_body div.part_b ul li div.icon i,
+div.account_info_wrapper div.account_info div.account_info_body div.part_c ul li div.icon i,
+div.account_info_wrapper div.account_info div.account_info_body div.part_d ul li div.icon i,
+div.account_info_wrapper div.account_info div.account_info_body div.part_e ul li div.icon i {
+  color: #657786;
+}
+
+div.account_info_wrapper div.account_info div.account_info_body div.part_a ul li div.label,
+div.account_info_wrapper div.account_info div.account_info_body div.part_b ul li div.label,
+div.account_info_wrapper div.account_info div.account_info_body div.part_c ul li div.label,
+div.account_info_wrapper div.account_info div.account_info_body div.part_d ul li div.label,
+div.account_info_wrapper div.account_info div.account_info_body div.part_e ul li div.label {
+  font-size: .9rem;
+}
+
+div.account_info_wrapper div.account_info div.account_info_body div.part_e {
+  border-bottom: none;
+  padding-bottom: 40px;
+  font-size: .9rem;
+}
+
+div.account_info_wrapper div.overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 5000;
+  width: 20%;
+  height: 100%;
+  background-color: #3333336e;
+}
