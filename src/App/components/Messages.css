@@ -1,8 +1,23 @@
 div.messages_wrapper {
   overflow-y: scroll;
-  height: 86vh;
-  position: relative;
+  height: 93vh;
+  background-color: #fff;
+}
+
+div.messages_wrapper header {
+  border-bottom: 1px solid #d3d3d386;
+  background-color: #fff;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
   z-index: 3000;
+}
+
+div.messages_wrapper header div.image_and_label {
+  background-color: #fff;
+}
+
+div.messages_wrapper div.messages {
   background-color: #fff;
 }
 
