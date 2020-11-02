@@ -42,7 +42,7 @@ const Tweet = ({ user }) => {
                                                                 <i className="far fa-heart"></i>
                                                         </li>
                                                         <li className="other item">
-                                                                <i className="fas fa-arrow-up"></i>
+                                                                <i className="fas fa-share-alt"></i>
                                                         </li>
                                                 </ul>
                                         </div>
