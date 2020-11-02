@@ -1,9 +1,23 @@
 div.messages_wrapper {
         overflow-y: scroll;
-        height: 86vh;
-        position: relative;
-        z-index: 3000;
+        height: 93vh;
         background-color: #fff;
+
+        header { 
+                border-bottom: 1px solid #d3d3d386;
+                background-color: #fff;
+                position: sticky;
+                top: 0;
+                z-index: 3000;
+
+                div.image_and_label {
+                        background-color: #fff;
+                }
+        }
+
+        div.messages {
+                background-color: #fff;
+        }
 
         div.search_form {
                 height: 58px;
