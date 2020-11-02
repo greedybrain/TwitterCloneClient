@@ -140,7 +140,7 @@ const AccountInfo = ({ accountInfoDisplayed, setAccountInfoDisplayed }) => {
                                         </div>
                                 </div>
                         </div>
-                        <div className="overlay animate__animated animate__fadeIn animate_faster"></div>
+                        <div className="overlay animate__animated animate__fadeIn animate_faster"  onClick={handleCloseAccountInfo}></div>
                 </div>
         )
 }
