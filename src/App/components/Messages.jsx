@@ -4,8 +4,10 @@ import Message from '../../HomePage/components/Message'
 import './Messages.css'
 import './Header.css'
 import CreateMessageButton from './CreateMessageButton'
+import ProfileImageOpensAccountInfo from './ProfileImageOpensAccountInfo'
+import PageTitle from './PageTitle'
 
-const Messages = () => {
+const Messages = ({ setAccountInfoDisplayed }) => {
         const [messages, setMessages] = useState([])
         const getFakeDataToMakeMessages = () => {
                 const messagesToRender = []
@@ -34,22 +36,18 @@ const Messages = () => {
 
         const handleBlur = event => {
                 const searchArea = event.target.parentElement.parentElement
-                searchArea.style.backgroundColor = "#eeeeeeda"
+                searchArea.style.backgroundColor = "#6c849731"
                 searchArea.style.border = "none"
-                searchArea.firstElementChild.firstElementChild.style.color = "#a8a8a8"
+                searchArea.firstElementChild.firstElementChild.style.color = "#657786"
         }
 
         return (
                 <>
                         <header className='header'> 
                                 <div className="image_and_label">
-                                        <div className="profile_image">
-                                                {/* profile image  */}
-                                                {/* <img src={naya_willis_image} alt="profile pic"/> */}
-                                        </div>
+                                        <ProfileImageOpensAccountInfo setAccountInfoDisplayed={setAccountInfoDisplayed} />
                                         <div className="label">
-                                                {/* label  */}
-                                                <h2>Messages</h2>
+                                                <PageTitle pageTitle="Messages" />
                                         </div>
                                 </div>
                         </header>
