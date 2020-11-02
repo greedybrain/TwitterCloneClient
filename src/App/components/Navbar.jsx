@@ -23,7 +23,7 @@ const Navbar = () => {
                                 </li>
                                 <li className="messages item">
                                         <NavLink to="/messages" activeClassName="navbar__link">
-                                                <i className="far fa-envelope"></i>
+                                                <i className="fas fa-envelope"></i>
                                         </NavLink>
                                 </li>
                         </ul>
