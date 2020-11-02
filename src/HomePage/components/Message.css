@@ -4,6 +4,9 @@ div.message_wrapper {
   display: flex;
   border-bottom: 1px solid #d3d3d386;
   padding: 15px 10px;
+  background-color: #fff;
+  position: relative;
+  z-index: 1000;
 }
 
 div.message_wrapper .message_sender {
@@ -26,7 +29,6 @@ div.message_wrapper .message_content {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  position: relative;
 }
 
 div.message_wrapper .message_content .message_content_head {
