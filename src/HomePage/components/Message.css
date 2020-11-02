@@ -42,7 +42,7 @@ div.message_wrapper .message_content .message_content_head .sender_name {
 }
 
 div.message_wrapper .message_content .message_content_head .sender_name .at_name {
-  color: #919191;
+  color: #657786;
 }
 
 div.message_wrapper .message_content .message_content_head .message_time {
@@ -53,7 +53,7 @@ div.message_wrapper .message_content .message_content_head .message_time span.bu
   display: inline-block;
   font-size: .5rem;
   margin-left: 10px;
-  color: #919191;
+  color: #657786;
 }
 
 div.message_wrapper .message_content .content {
