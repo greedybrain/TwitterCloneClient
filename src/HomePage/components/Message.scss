@@ -2,6 +2,9 @@ div.message_wrapper {
         display: flex;
         border-bottom: 1px solid #d3d3d386;
         padding: 15px 10px;
+        background-color: #fff;
+        position: relative;
+        z-index: 1000;
         .message_sender {
                 width: 46px;
                 height: 46px;
@@ -16,7 +19,6 @@ div.message_wrapper {
         .message_content {
                 display: flex;
                 flex-direction: column;
-                position: relative;
                 .message_content_head {
                         position: relative;
                         display: flex;
