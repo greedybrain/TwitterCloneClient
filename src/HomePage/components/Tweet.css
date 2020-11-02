@@ -43,18 +43,18 @@ div.tweet .tweet_body .tweet_content .tweet_content_head .tweeter_name {
 }
 
 div.tweet .tweet_body .tweet_content .tweet_content_head .tweeter_name .at_name {
-  color: #919191;
+  color: #657786;
 }
 
 div.tweet .tweet_body .tweet_content .tweet_content_head .tweet_time {
-  color: #919191;
+  color: #657786;
 }
 
 div.tweet .tweet_body .tweet_content .tweet_content_head .tweet_time span.bullet {
   display: inline-block;
   font-size: .5rem;
   margin-left: 10px;
-  color: #919191;
+  color: #657786;
 }
 
 div.tweet .tweet_body .tweet_content .content {
@@ -87,7 +87,7 @@ div.tweet .tweet_body .tweet_content .tweet_footer ul {
 }
 
 div.tweet .tweet_body .tweet_content .tweet_footer ul li i {
-  color: #949494;
+  color: #657786;
 }
 
 div.tweet .tweet_body .tweet_settings {
@@ -96,5 +96,5 @@ div.tweet .tweet_body .tweet_settings {
 }
 
 div.tweet .tweet_body .tweet_settings i {
-  color: #bbbbbb;
+  color: #657786;
 }
