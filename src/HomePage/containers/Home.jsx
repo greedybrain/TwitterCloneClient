@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
 import Tweets from '../components/Tweets';
-// import './Home.css'
-import '../../App/components/Header.css'
-import PageTitle from '../../App/components/PageTitle';
+import './Home.css'
+// import '../../App/components/Header.css'
 import ProfileImageOpensAccountInfo from '../../App/components/ProfileImageOpensAccountInfo';
 
 class Home extends Component {
@@ -13,11 +12,10 @@ class Home extends Component {
                                         <div className="image_and_label">
                                                 <ProfileImageOpensAccountInfo setAccountInfoDisplayed={this.props.setAccountInfoDisplayed} />
                                                 <div className="label">
-                                                        <PageTitle pageTitle="Home" />
+                                                        <h2>Home</h2>
                                                 </div>
                                         </div>
                                         <div className="header_icon">
-                                                
                                                 <i className="far fa-star"></i> 
                                         </div>
                                 </header>
