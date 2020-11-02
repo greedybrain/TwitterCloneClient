@@ -5,14 +5,14 @@ import Messages from './App/components/Messages'
 import Explore from './HomePage/components/Explore'
 import Home from './HomePage/containers/Home'
 
-const Routes = () => {
+const Routes = ({ setAccountInfoDisplayed }) => {
         return (
                 <>
                         <Switch>
                                 <Route 
                                         exact
                                         path='/messages'
-                                        render={routerProps => <Messages {...routerProps} />}
+                                        render={routerProps => <Messages {...routerProps} setAccountInfoDisplayed={setAccountInfoDisplayed} />}
                                 />
                                 <Route
                                         exact
@@ -27,7 +27,7 @@ const Routes = () => {
                                 <Route 
                                         exact
                                         path="/home"
-                                        render={routerProps => <Home {...routerProps} pageTitle="Home" />}
+                                        render={routerProps => <Home {...routerProps} pageTitle="Home" setAccountInfoDisplayed={setAccountInfoDisplayed} />}
                                 />
                         </Switch>
                 </>
