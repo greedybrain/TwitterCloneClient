@@ -4,7 +4,7 @@ import './CreateMessageButton.css'
 const CreateMessageButton = () => {
         return (
                 <div className="create_message">
-                        <i class="far fa-envelope"></i>
+                        <i className="far fa-envelope"></i>
                 </div>
         )
 }
