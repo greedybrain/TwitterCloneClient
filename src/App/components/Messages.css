@@ -18,7 +18,7 @@ div.messages_wrapper div.search_form {
 }
 
 div.messages_wrapper div.search_form div.search_area {
-  background-color: #eeeeeeda;
+  background-color: #6c849731;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -47,7 +47,7 @@ div.messages_wrapper div.search_form div.search_area div.search_icon {
 }
 
 div.messages_wrapper div.search_form div.search_area div.search_icon i {
-  color: #a8a8a8;
+  color: #657786;
 }
 
 div.messages_wrapper div.search_form div.search_area div.search {
@@ -74,20 +74,20 @@ div.messages_wrapper div.search_form div.search_area div.search input {
 
 div.messages_wrapper div.search_form div.search_area div.search input::-webkit-input-placeholder {
   font-size: .95rem;
-  color: #75797e;
+  color: #657786;
 }
 
 div.messages_wrapper div.search_form div.search_area div.search input:-ms-input-placeholder {
   font-size: .95rem;
-  color: #75797e;
+  color: #657786;
 }
 
 div.messages_wrapper div.search_form div.search_area div.search input::-ms-input-placeholder {
   font-size: .95rem;
-  color: #75797e;
+  color: #657786;
 }
 
 div.messages_wrapper div.search_form div.search_area div.search input::placeholder {
   font-size: .95rem;
-  color: #75797e;
+  color: #657786;
 }
