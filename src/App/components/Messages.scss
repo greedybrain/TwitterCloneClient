@@ -12,7 +12,7 @@ div.messages_wrapper {
                 align-items: center;
 
                 div.search_area {
-                        background-color: #eeeeeeda;
+                        background-color: #6c849731;
                         display: flex;
                         width: 93%;
                         height: 40px;
@@ -30,7 +30,7 @@ div.messages_wrapper {
                                 border-radius: 29px 0 0 29px;
 
                                 i {
-                                        color: #a8a8a8;
+                                        color: #657786;
                                 }
                         }
                         div.search {
@@ -51,7 +51,7 @@ div.messages_wrapper {
                         
                                         &::placeholder {
                                                 font-size: .95rem;
-                                                color: #75797e;
+                                                color: #657786;
                                         }
                                 }
                         }
