@@ -5,13 +5,12 @@ import './Messages.css'
 import './Header.css'
 import CreateMessageButton from './CreateMessageButton'
 import ProfileImageOpensAccountInfo from './ProfileImageOpensAccountInfo'
-import PageTitle from './PageTitle'
 
 const Messages = ({ setAccountInfoDisplayed }) => {
         const [messages, setMessages] = useState([])
         const getFakeDataToMakeMessages = () => {
                 const messagesToRender = []
-                for(let i=0; i < 6; i++) {
+                for(let i=0; i < 15; i++) {
                         messagesToRender.push({ 
                                 name: faker.name.findName(),
                                 image: faker.image.avatar(),
@@ -42,16 +41,16 @@ const Messages = ({ setAccountInfoDisplayed }) => {
         }
 
         return (
-                <>
+                <div className="messages_wrapper">
                         <header className='header'> 
                                 <div className="image_and_label">
                                         <ProfileImageOpensAccountInfo setAccountInfoDisplayed={setAccountInfoDisplayed} />
                                         <div className="label">
-                                                <PageTitle pageTitle="Messages" />
+                                                <h2>Messages</h2>
                                         </div>
                                 </div>
                         </header>
-                        <div className="messages_wrapper">
+                        <div className="inner_messages_wrapper">
                                 <div className="search_form">
                                         <div className="search_area">
                                                 <div className="search_icon">
@@ -67,7 +66,7 @@ const Messages = ({ setAccountInfoDisplayed }) => {
                                 </div>
                                 <CreateMessageButton />
                         </div>
-                </>
+                </div>
         )
 }
 
