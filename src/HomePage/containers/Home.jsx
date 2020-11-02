@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import Tweets from '../components/Tweets';
 // import './Home.css'
 import '../../App/components/Header.css'
+import PageTitle from '../../App/components/PageTitle';
+import ProfileImageOpensAccountInfo from '../../App/components/ProfileImageOpensAccountInfo';
 
 class Home extends Component {
         render() {
@@ -9,13 +11,9 @@ class Home extends Component {
                         <div className="home_wrapper">
                                 <header className='header'> 
                                         <div className="image_and_label">
-                                                <div className="profile_image">
-                                                        {/* profile image  */}
-                                                        {/* <img src={naya_willis_image} alt="profile pic"/> */}
-                                                </div>
+                                                <ProfileImageOpensAccountInfo setAccountInfoDisplayed={this.props.setAccountInfoDisplayed} />
                                                 <div className="label">
-                                                        {/* label  */}
-                                                        <h2>Home</h2>
+                                                        <PageTitle pageTitle="Home" />
                                                 </div>
                                         </div>
                                         <div className="header_icon">
