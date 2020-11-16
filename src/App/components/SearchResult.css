@@ -1,0 +1,63 @@
+div.search_result {
+  padding: 5px 15px;
+  border-bottom: 1px solid #d3d3d386;
+}
+
+div.search_result div.following_or_not {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 10px;
+}
+
+div.search_result div.following_or_not div.icon {
+  width: 15%;
+  text-align: right;
+  margin-right: 12px;
+}
+
+div.search_result div.following_or_not div.icon i {
+  font-size: .7rem;
+  color: #657786;
+}
+
+div.search_result div.following_or_not div.label {
+  width: 85%;
+  font-size: .8rem;
+  color: #657786;
+}
+
+div.search_result div.image_and_content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+div.search_result div.image_and_content div.image {
+  width: 15%;
+  margin-right: 10px;
+}
+
+div.search_result div.image_and_content div.image div.image_wrapper {
+  width: 100%;
+}
+
+div.search_result div.image_and_content div.image div.image_wrapper img {
+  width: 100%;
+  border-radius: 50%;
+}
+
+div.search_result div.image_and_content div.content div.name {
+  font-weight: 600;
+}
+
+div.search_result div.image_and_content div.content div.at_name {
+  font-size: 1rem;
+  color: #657786;
+}

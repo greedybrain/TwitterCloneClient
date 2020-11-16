@@ -1,0 +1,129 @@
+div.compose_message_wrapper {
+  height: 100vh;
+  position: relative;
+  z-index: 4000;
+  background-color: #fff;
+}
+
+div.compose_message_wrapper div.head {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 15px;
+  height: 50px;
+  border-bottom: 1px solid #d3d3d386;
+}
+
+div.compose_message_wrapper div.head div.close_and_label {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+div.compose_message_wrapper div.head div.close_and_label div.close {
+  margin-right: 40px;
+}
+
+div.compose_message_wrapper div.head div.close_and_label div.close i {
+  font-size: 1.5rem;
+  color: #1DA1F2;
+}
+
+div.compose_message_wrapper div.head div.next_button {
+  border-radius: 30px;
+  background-color: #1DA1F2;
+}
+
+div.compose_message_wrapper div.head div.next_button button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  padding: 5px 15px;
+  border-radius: 29px;
+  color: #fff;
+}
+
+div.compose_message_wrapper div.head div.next_button button:disabled {
+  background-color: #91d1f8;
+}
+
+div.compose_message_wrapper div.search_area {
+  background-color: #83a0b831;
+}
+
+div.compose_message_wrapper div.search_area form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: 40px;
+}
+
+div.compose_message_wrapper div.search_area form div.search_button,
+div.compose_message_wrapper div.search_area form div.search_bar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+}
+
+div.compose_message_wrapper div.search_area form div.search_button {
+  width: 15%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: transparent;
+}
+
+div.compose_message_wrapper div.search_area form div.search_button button {
+  border: none;
+}
+
+div.compose_message_wrapper div.search_area form div.search_button button i {
+  color: #657786;
+}
+
+div.compose_message_wrapper div.search_area form div.search_bar {
+  width: 85%;
+}
+
+div.compose_message_wrapper div.search_area form div.search_bar input {
+  width: 100%;
+  height: 100%;
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+
+div.compose_message_wrapper div.search_area form div.search_bar input::-webkit-input-placeholder {
+  font-size: .95rem;
+}
+
+div.compose_message_wrapper div.search_area form div.search_bar input:-ms-input-placeholder {
+  font-size: .95rem;
+}
+
+div.compose_message_wrapper div.search_area form div.search_bar input::-ms-input-placeholder {
+  font-size: .95rem;
+}
+
+div.compose_message_wrapper div.search_area form div.search_bar input::placeholder {
+  font-size: .95rem;
+}

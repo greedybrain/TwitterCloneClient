@@ -2,8 +2,6 @@ import React from 'react'
 import ProfileImageOpensAccountInfo from './ProfileImageOpensAccountInfo'
 import './Notifications.css'
 import { NavLink } from 'react-router-dom'
-import tweet_user1 from  '../../Images/tweet_user.jpg'
-import tweet_liker2 from '../../Images/tweet_liker_2.jpg'
 import faker from 'faker'
 
 const Notifications = ({ setAccountInfoDisplayed }) => {
@@ -12,7 +10,9 @@ const Notifications = ({ setAccountInfoDisplayed }) => {
                 avatar2: faker.image.avatar(),
                 avatar3: faker.image.avatar(),
                 avatar4: faker.image.avatar(),
-                avatar5: faker.image.avatar()
+                avatar5: faker.image.avatar(),
+                avatar6: faker.image.avatar(),
+                avatar7: faker.image.avatar(),
         }        
         return (
                 <div className="notifications_wrapper">
@@ -56,7 +56,7 @@ const Notifications = ({ setAccountInfoDisplayed }) => {
                                                 <div className="recent_tweet_head">
                                                         <div className="person_who_tweeted">
                                                                 <div className="tweeter_image_wrapper">
-                                                                        <img src={tweet_user1} alt="pic"/>
+                                                                        <img src={fakeAvatars.avatar6} alt="pic"/>
                                                                 </div>
                                                         </div>
                                                         <div className="settings">
@@ -64,10 +64,10 @@ const Notifications = ({ setAccountInfoDisplayed }) => {
                                                         </div>
                                                 </div>
                                                 <div className="subject">
-                                                        Recent Tweet from <strong>Emi / Pixi</strong> <span role='img' aria-label='fairy'>🧚🏻</span> <strong>#BLM</strong>
+                                                        Recent Tweet from <strong>SuperPerson</strong> <span role='img' aria-label='superwoman'>🦸🏽‍♂️</span>
                                                 </div>
                                                 <div className="content">
-                                                        Shout-out to nurses everywhere. My nurses, your nurses, all nurses everywhere. I love you so much. Thank you Two heartsFace with medical mask <span role='img' aria-label='hearts'>💕</span><span role='img' aria-label='medical emoji'>😷</span>
+                                                        Shout-out to all of my positive people out there, everywhere. Keep being positive, channel out the negativity<span role='img' aria-label='pray emoji'>🙏🏽</span>
                                                 </div>
                                         </div>         
                                 </div>
@@ -78,11 +78,11 @@ const Notifications = ({ setAccountInfoDisplayed }) => {
                                         <div className="liked_tweet_info">
                                                 <div className="person_who_liked">
                                                         <div className="liker_image_wrapper">
-                                                                <img src={tweet_liker2} alt="pic"/>
+                                                                <img src={fakeAvatars.avatar7} alt="pic"/>
                                                         </div>
                                                 </div>
                                                 <div className="subject">
-                                                        <strong>Jamal</strong> liked your Tweet
+                                                        <strong>Alex</strong> liked your Tweet
                                                 </div>
                                                 <div className="liked_pic">
                                                         <a href="pic.twitter.com/noWGEnFW39">pic.twitter.com/noWGEnFW39</a>

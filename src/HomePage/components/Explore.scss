@@ -1,0 +1,163 @@
+div.explore_page_wrapper {
+        header {
+                div.image_and_label{
+                        display: inline-block;
+                        padding: 0;
+
+                        div.image {
+                                width: 30px;
+
+                                img {
+                                        width: 100%;
+                                }
+                        }
+                }
+                div.form_with_search_bar {
+                        background-color: #6c849731;
+                        border-radius: 30px;
+                        width: 65%;
+                        form {
+                                width: 100%;
+                                height: 100%;
+                                display: flex;
+                                align-items: center;
+                                border-radius: 29px;
+
+                                div.search_button {
+                                        width: 25%;
+                                        border-radius: 29px 0 0 29px;
+                                        display: flex;
+                                        align-items: center;
+                                        justify-content: center;
+
+                                        i {
+                                                color: #657786;
+                                        }
+                                }
+
+                                div.search_bar {
+                                        width: 75%;
+                                        height: 30px;
+                                        input {
+                                                border-radius: 29px;
+                                                width: 100%;
+                                                height: 100%;
+                                                border: none;
+                                                outline: none;
+                                                font-size: 1em;
+                                                background-color: transparent;
+
+                                                &::placeholder {
+                                                        color: #657786;
+                                                        font-size: .95rem;
+                                                }
+                                        }
+                                }
+                        }
+                }
+                div.header_icon {
+                        font-size: 1.2rem;
+                }
+        }
+        div.explore_tabs {
+                ul {
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        border-bottom: 1px solid #d3d3d386;
+
+                        li {
+                                padding: 15px 0;
+                                width: 33.3%;
+                                height: 100%;
+                                text-align: center;
+                                font-size: .9rem;
+                                color: #3f3f3faf;
+                                font-weight: 600;
+
+                                &:nth-child(1) {
+                                        color: #1DA1F2;
+                                        border-bottom: 2px solid #1DA1F2;
+                                }
+                        }
+                }
+        }
+        div.section_a {
+                text-align: center;
+                padding: 35px 5px;
+
+                div.inner_content_a {
+                        margin-top: 15px;
+                        font-size: .9rem;
+                        line-height: 1.3;
+                        color: #657786;
+
+                        a {
+                                color: #1DA1F2;
+                        }
+                }
+                div.got_it {
+                        display: inline-block;
+                        border-radius: 30px;
+                        background-color: #1DA1F2;
+                        margin-top: 20px;
+                        button {
+                                border: none;
+                                width: 100%;
+                                height: 100%;
+                                background-color: transparent;
+                                font-size: .9rem;
+                                padding: 11px 15px;
+                                color: #fff;
+                                font-weight: 600;
+                                outline: none;
+                        }
+                }
+        }
+
+        div.section_b {
+                padding: 8px 0;
+                background-color: #6c849731;
+                position: relative;
+                div.article_image {
+                        background-image: url('../../Images/rover.png');
+                        background-repeat: no-repeat;
+                        background-position: center;
+                        background-size: cover;
+                        height: 26.5vh;
+                        color: #fff;
+                        position: relative;
+                        
+                        div.article_info {
+                                display: flex;
+                                flex-direction: column;
+                                position: absolute;
+                                bottom: 0;
+                                margin: 0 0 10px 10px;
+                                
+                                div.article_head {
+                                        font-size: .7rem;
+                                        margin-bottom: 10px;
+                                }
+
+                                div.article_body {
+                                        justify-self: flex-end;
+                                        font-size: 1.2rem;
+                                        font-weight: 600;
+                                        line-height: 1.3;
+                                        margin-bottom: 12px;
+                                        padding-right: 5px;
+                                }
+                                div.article_footer {
+                                        font-size: .8rem;
+
+                                        span.footer_content {
+                                                color: #1DA1F2;
+                                        }
+                                }
+                        }
+                }
+        }
+
+}
+

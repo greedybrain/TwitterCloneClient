@@ -1,0 +1,50 @@
+div.search_result {
+        padding: 5px 15px;
+        border-bottom: 1px solid #d3d3d386;
+        div.following_or_not {
+                display: flex;
+                align-items: center;
+                padding-top: 10px;
+                div.icon {
+                        width: 15%;
+                        text-align: right;
+                        margin-right: 12px;
+
+                        i {
+                                font-size: .7rem;
+                                color: #657786;
+                        }
+                }
+                div.label {
+                        width: 85%;
+                        font-size: .8rem;
+                        color: #657786;
+                }
+        }
+        div.image_and_content {
+                display: flex;
+                align-items: center;
+                div.image {
+                        width: 15%;
+                        margin-right: 10px;
+
+                        div.image_wrapper {
+                                width: 100%;
+
+                                img {
+                                        width: 100%;
+                                        border-radius: 50%;
+                                }
+                        }
+                }
+                div.content {
+                        div.name {
+                                font-weight: 600;
+                        }
+                        div.at_name {
+                                font-size: 1rem;
+                                color: #657786;
+                        }
+                }
+        }
+}

@@ -1,15 +1,14 @@
 import React from 'react'
-import { useHistory } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import './CreateTweetButton.css'
 
 const CreateTweetButton = () => {
-        const history = useHistory()
-
-        const goToComposeTweetPage = () => history.push('/compose/tweet')
         return (
-                <div className="create_tweet" onClick={goToComposeTweetPage}>
-                        <i className="fas fa-feather-alt"></i>
-                </div>
+                <Link to="/compose/tweet">
+                        <div className="create_tweet">
+                                <i className="fas fa-feather-alt"></i>
+                        </div>
+                </Link>
         )
 }
 

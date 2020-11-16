@@ -1,5 +1,6 @@
 import React from 'react'
 import { Route, Switch } from 'react-router-dom'
+import ComposeMessage from './App/components/ComposeMessage'
 import ComposeTweet from './App/components/ComposeTweet'
 import Messages from './App/components/Messages'
 import Notifications from './App/components/Notifications'
@@ -22,6 +23,11 @@ const Routes = ({ setAccountInfoDisplayed }) => {
                                         render={routerProps => <Notifications {...routerProps} setAccountInfoDisplayed={setAccountInfoDisplayed} />}
                                 />
                                 <Route 
+                                        exact 
+                                        path='/messages/compose'
+                                        render={routerProps => <ComposeMessage {...routerProps} />}
+                                />
+                                <Route 
                                         exact
                                         path='/messages'
                                         render={routerProps => <Messages {...routerProps} setAccountInfoDisplayed={setAccountInfoDisplayed} />}
@@ -29,7 +35,7 @@ const Routes = ({ setAccountInfoDisplayed }) => {
                                 <Route
                                         exact
                                         path='/explore'
-                                        render={routerProps => <Explore {...routerProps} pageTitle="Explore" />}
+                                        render={routerProps => <Explore {...routerProps} setAccountInfoDisplayed={setAccountInfoDisplayed} />}
                                 /> 
                                 <Route 
                                         exact

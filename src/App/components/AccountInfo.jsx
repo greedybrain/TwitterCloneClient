@@ -3,14 +3,18 @@ import './AccountInfo.css'
 import naya_willis from '../../Images/naya_willis.jpg'
 
 const AccountInfo = ({ accountInfoDisplayed, setAccountInfoDisplayed }) => {
-        const handleCloseAccountInfo = () => {
+        const handleCloseAccountInfo = event => {
+                const target = event.target.parentElement.parentElement.parentElement.parentElement
                 setAccountInfoDisplayed(false)
+                target.classList.add(
+                        'animate__animated',
+                        'animate__slideOutLeft',
+                        'animate__faster'
+                )
         }       
         return (
                 <div className={
-                        `account_info_wrapper ${accountInfoDisplayed 
-                                ? 'animate__animated animate__slideInLeft animate__faster' 
-                                : 'animate__animated animate__fadeOutLeft'}`
+                        `account_info_wrapper ${accountInfoDisplayed && 'animate__animated animate__slideInLeft animate__faster'}`
                         }
                 >
                         <div className="account_info">
