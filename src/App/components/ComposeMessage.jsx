@@ -36,19 +36,21 @@ const ComposeMessage = () => {
                 },
 
         ]
-        const [tweeters, setTweeters] = useState(searchableTweeters)
+        const [tweeters, setTweeters] = useState([])
+        const [results, setResults] = useState([])
         const [query, setQuery] = useState('')
 
         const handleOnChange = event => {
                 let query = event.target.value
                 setQuery(query)
                 let lowercaseQuery = query.toLowerCase()
-                const results = tweeters.filter(tweeter => 
+                setTweeters(searchableTweeters)
+                const tweeterResults = tweeters.filter(tweeter => 
                         tweeter.name.toLowerCase().includes(lowercaseQuery) || 
                         tweeter.atName.toLowerCase().includes(lowercaseQuery) || 
                         tweeter.name.toLowerCase() === lowercaseQuery || 
                         tweeter.atName.toLowerCase() === lowercaseQuery)
-                setTweeters(results)
+                setResults(tweeterResults)
         }
         return (
                 <div className="compose_message_wrapper">
@@ -85,7 +87,7 @@ const ComposeMessage = () => {
                                 </form>
                         </div>
 
-                        <SearchResults results={tweeters} />
+                        <SearchResults results={results} />
                 </div>
         )
 }
