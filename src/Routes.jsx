@@ -23,14 +23,14 @@ const Routes = ({ setAccountInfoDisplayed }) => {
                                         render={routerProps => <Notifications {...routerProps} setAccountInfoDisplayed={setAccountInfoDisplayed} />}
                                 />
                                 <Route 
-                                        exact 
-                                        path='/messages/compose'
-                                        render={routerProps => <ComposeMessage {...routerProps} />}
-                                />
-                                <Route 
                                         exact
                                         path='/messages'
                                         render={routerProps => <Messages {...routerProps} setAccountInfoDisplayed={setAccountInfoDisplayed} />}
+                                />
+                                <Route 
+                                        exact 
+                                        path='/messages/compose'
+                                        render={routerProps => <ComposeMessage {...routerProps} />}
                                 />
                                 <Route
                                         exact
