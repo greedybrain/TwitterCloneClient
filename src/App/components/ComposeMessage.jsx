@@ -85,7 +85,7 @@ const ComposeMessage = () => {
                                 </form>
                         </div>
 
-                        <SearchResults results={results} />
+                        <SearchResults results={tweeters} />
                 </div>
         )
 }
