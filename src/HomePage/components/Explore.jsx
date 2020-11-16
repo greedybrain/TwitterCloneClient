@@ -51,7 +51,7 @@ const Explore = ({ setAccountInfoDisplayed }) => {
                                                 <h3>Showing Context on Trends in Explore</h3>
                                         </div>
                                         <div className="inner_content_a">
-                                                To make high quality information around the 2020 US elections more accessible, we're adding context to Trends and only displaying Trends with added context in the For you tab. <a href="#">Learn more</a>
+                                                To make high quality information around the 2020 US elections more accessible, we're adding context to Trends and only displaying Trends with added context in the For you tab. <a href="https://google.com">Learn more</a>
                                         </div>
                                         <div className="got_it">
                                                 <button>Got it</button>

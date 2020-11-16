@@ -9,7 +9,7 @@ import phase from '../../Images/codingphase.jpg'
 
 const ComposeMessage = () => {
         const history = useHistory()
-                const searchableTweeters = [
+        const searchableTweeters = [
                 {
                         name: "Moshfegh Hamedani",
                         atName: "@moshhamedani",
@@ -36,7 +36,8 @@ const ComposeMessage = () => {
                 },
 
         ]
-        const [tweeters, setTweeters] = useState(searchableTweeters)
+        const [tweeters, setTweeters] = useState([])
+        setTweeters(searchableTweeters)
         const [results, setResults] = useState([])
         const [query, setQuery] = useState('')
 
